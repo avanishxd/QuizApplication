@@ -1,0 +1,74 @@
+2025-11-18T21:37:04.512+05:30  INFO 33264 --- [quizapp] [restartedMain] com.legit.quizapp.QuizappApplication     : Starting QuizappApplication using Java 21.0.8 with PID 33264 (X:\stuff\code\IntelliJ_SpringProjects\SpringBootProjects\QuizProject\QuizBackEnd\quizapp\target\classes started by avani in X:\stuff\code\IntelliJ_SpringProjects\SpringBootProjects\QuizProject\QuizBackEnd\quizapp)
+2025-11-18T21:37:04.526+05:30 DEBUG 33264 --- [quizapp] [restartedMain] com.legit.quizapp.QuizappApplication     : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-18T21:37:04.528+05:30  INFO 33264 --- [quizapp] [restartedMain] com.legit.quizapp.QuizappApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-11-18T21:37:04.671+05:30  INFO 33264 --- [quizapp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-18T21:37:04.673+05:30  INFO 33264 --- [quizapp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-18T21:37:06.748+05:30  INFO 33264 --- [quizapp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18T21:37:06.922+05:30  INFO 33264 --- [quizapp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 2 JPA repository interfaces.
+2025-11-18T21:37:09.213+05:30  INFO 33264 --- [quizapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-18T21:37:09.274+05:30  INFO 33264 --- [quizapp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18T21:37:09.276+05:30  INFO 33264 --- [quizapp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-18T21:37:09.415+05:30  INFO 33264 --- [quizapp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-18T21:37:09.419+05:30  INFO 33264 --- [quizapp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4741 ms
+2025-11-18T21:37:10.093+05:30  INFO 33264 --- [quizapp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18T21:37:10.250+05:30  INFO 33264 --- [quizapp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-18T21:37:10.345+05:30  INFO 33264 --- [quizapp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-18T21:37:11.136+05:30  INFO 33264 --- [quizapp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18T21:37:11.258+05:30  INFO 33264 --- [quizapp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-18T21:37:12.173+05:30  INFO 33264 --- [quizapp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6387a7
+2025-11-18T21:37:12.178+05:30  INFO 33264 --- [quizapp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-18T21:37:12.350+05:30  WARN 33264 --- [quizapp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-18T21:37:12.428+05:30  INFO 33264 --- [quizapp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18T21:37:14.431+05:30  INFO 33264 --- [quizapp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18T21:37:14.573+05:30  INFO 33264 --- [quizapp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18T21:37:15.615+05:30  WARN 33264 --- [quizapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18T21:37:15.714+05:30  INFO 33264 --- [quizapp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-11-18T21:37:17.258+05:30  WARN 33264 --- [quizapp] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-18T21:37:17.760+05:30  INFO 33264 --- [quizapp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-18T21:37:17.835+05:30  INFO 33264 --- [quizapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-18T21:37:17.859+05:30  INFO 33264 --- [quizapp] [restartedMain] com.legit.quizapp.QuizappApplication     : Started QuizappApplication in 14.646 seconds (process running for 15.877)
+2025-11-18T21:37:36.836+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18T21:37:36.837+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18T21:37:36.838+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-18T21:37:39.390+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-3] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:37:39.518+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-5] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:37:44.128+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-4] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionById      |       Parameters: [15]------------
+2025-11-18T21:37:46.697+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-6] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionById      |       Parameters: [30]------------
+2025-11-18T21:37:47.825+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-7] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [java]------------
+2025-11-18T21:37:47.841+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-8] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [java]------------
+2025-11-18T21:37:48.943+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-10] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [JavaScript]------------
+2025-11-18T21:37:49.163+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-9] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [CSS]------------
+2025-11-18T21:37:49.406+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [HTML]------------
+2025-11-18T21:37:49.743+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-1] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [SQL]------------
+2025-11-18T21:37:49.972+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-3] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [Java]------------
+2025-11-18T21:37:50.244+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-5] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [SQL]------------
+2025-11-18T21:37:50.528+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-4] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [HTML]------------
+2025-11-18T21:37:51.107+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-6] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [CSS]------------
+2025-11-18T21:37:51.680+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-7] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [JavaScript]------------
+2025-11-18T21:37:52.201+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-8] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [CSS]------------
+2025-11-18T21:37:52.681+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-10] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [HTML]------------
+2025-11-18T21:37:53.005+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-9] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [SQL]------------
+2025-11-18T21:37:53.311+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getQuestionsByCategory      |       Parameters: [Java]------------
+2025-11-18T21:37:56.857+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-1] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:37:56.875+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-3] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:38:13.710+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-4] com.legit.quizapp.aop.LogsAspect         : ------------Method called: removeQuestion      |       Parameters: [48]------------
+2025-11-18T21:38:14.658+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-6] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:38:14.679+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-7] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:39:17.304+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-2] com.legit.quizapp.aop.LogsAspect         : ------------Method called: addQuestion      |       Parameters: [Quiz(id=null, category=CSS, difficulty=hard, option1=z-index, option2=opacity, option3=visibility, option4=display, question=Which CSS property sets stack order of elements?, answer=z-index)]------------
+2025-11-18T21:39:18.803+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-1] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:39:18.824+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-3] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:40:06.892+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-4] com.legit.quizapp.aop.LogsAspect         : ------------Method called: updateQuestion      |       Parameters: [Quiz(id=50, category=CSS, difficulty=hard, option1=z-index, option2=display, option3=visibility, option4=opacity, question=Which CSS property sets stack order of elements?, answer=z-index)]------------
+2025-11-18T21:40:07.894+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-6] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:40:07.908+05:30  INFO 33264 --- [quizapp] [http-nio-8080-exec-7] com.legit.quizapp.aop.LogsAspect         : ------------Method called: getAllQuestions      |       Parameters: []------------
+2025-11-18T21:40:26.786+05:30  INFO 33264 --- [quizapp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18T21:40:26.791+05:30  INFO 33264 --- [quizapp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-18T21:40:26.796+05:30  INFO 33264 --- [quizapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18T21:40:26.799+05:30  INFO 33264 --- [quizapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-18T21:40:26.803+05:30  INFO 33264 --- [quizapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
